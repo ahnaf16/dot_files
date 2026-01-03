@@ -1,7 +1,8 @@
 function src { . $PROFILE }
 
-function f { fvm flutter }
-function d { fvm dart }
+function f { fvm flutter @args }
+function d { fvm dart @args }
+
 function fget { fvm flutter pub get }
 function fup { fvm flutter pub upgrade }
 function fupM { fvm flutter pub upgrade --major-versions }
